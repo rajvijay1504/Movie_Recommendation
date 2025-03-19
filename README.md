@@ -4,7 +4,7 @@
 This project is a custom-built movie recommendation engine that provides tailored film suggestions based on your input. I developed a modern, user-friendly web interface using Flask, while leveraging natural language processing techniques for backend analysis. The system is deployed on Google Cloud with an automated CI/CD pipeline to ensure seamless updates.
 
 
-![Movie-Recommendation-Home-Screen](image1)
+![Movie-Recommendation-Home-Screen](https://github.com/rajvijay1504/Movie_Recommendation/blob/main/images/image1.png)
 
 
 
@@ -101,7 +101,7 @@ Update Timeout specification to 500 seconds.
 
 Save and Re-Deploy Cloud Run application.
 
-![Cloud-Run-Configuration-Specs](image2)
+![Cloud-Run-Configuration-Specs](https://github.com/rajvijay1504/Movie_Recommendation/blob/main/images/image2.png)
 
 Step 3: Open Cloud Build on GCP console:
 
@@ -118,7 +118,7 @@ Update github repo by merging feature branch into master branch. This will autom
 
 
 ### Cloud Architecture
-![Cloud Architecture](image3)
+![Cloud Architecture](https://github.com/rajvijay1504/Movie_Recommendation/blob/main/images/image3.png)
 
 The above diagram is the cloud architecture of our movie recommendation engine. Inside the cloud diagram we have our google cloud services listed: Storage Bucket, Compute Instance, Cloud Run, and Cloud Build. The storage bucket stores the movie dataset and the docker image of our website. The compute instances are where code files lie within the cloud platform. Cloud run sets up continuous deployment which allows us to deploy our website smoothly every time we make changes. Outside of cloud, our github repository set up github actions to allow us to continuously integrate our pushes into the repository.
 
